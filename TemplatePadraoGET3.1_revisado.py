@@ -38,20 +38,32 @@ def fetch_data_from_api(url):
         return None
 
 
+def process_api_data(url):
+    """
+    Faz a requisição para a API e processa os dados retornados.
+
+    Args:
+        url (str): A URL da API.
+    """
+    data = fetch_data_from_api(url)
+
+    if data is None:
+        print('Erro ao obter dados da API.')
+        return
+
+    date = data.get('date')
+    copyright_info = data.get('copyright')
+    explanation = data.get('explanation')
+    hdurl = data.get('hdurl')
+
+    print(date, copyright_info, explanation, hdurl)
+
+
 # URL correta
 url = 'https://api.nasa.gov/planetary/apod?api_key=J3QlMqNxK84jeDNWX0UJJhEjJJCBJlU5bSobtp5n'
 
 # URL errada para testar exceção
 # url = 'xhttps://api.nasa.gov/planetary/apod?api_key=J3QlMqNxK84jeDNWX0UJJhEjJJCBJlU5bSobtp5n'
 
-# Fazendo a requisição e armazenando o resultado em data
-data = fetch_data_from_api(url)
-
-if data:
-    date = data.get('date')
-    copyright_info = data.get('copyright')
-    explanation = data.get('explanation')
-
-    print(date, copyright_info, explanation)
-else:
-    print('Erro ao obter dados da API.')
+# Chamando a função para processar os dados da API
+process_api_data(url)
