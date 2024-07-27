@@ -24,6 +24,7 @@ def fetch_data_from_api(url):
             return None
 
         return response.json()
+    # Finalizando o bloco da nossa função utilizando o "except requests.exceptions.RequestException as e" - OBRIGATÓRIO
     except requests.exceptions.RequestException as e:
         print(f'Erro na requisição: {e}')
         return None
