@@ -19,3 +19,4 @@
     o comsumo de api(url e formato JSON), a minha variavel "data" recebe o valor do GET pois o meu "response = requests.get(url)" está dentro da minha função
     "fetch_data_from_api".
 
+🩸Arquivo (TemplatePadraoGET3.1_revisado):Template padrão de consumo de api método GET com parÂmetro passado e com early return nas duas funções usadas                     "fetch_data_from_api" e "process_api_data" otimizando ainda mais e deixando mais legivel que o arquivo anterior, padronizando comentarios e retirando                 comentários redundantes.
