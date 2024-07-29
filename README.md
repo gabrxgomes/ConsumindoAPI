@@ -21,7 +21,7 @@
 
 🩸Arquivo (TemplatePadraoGET3.1_revisado):Template padrão de consumo de api método GET com parÂmetro passado e com early return nas duas funções usadas                     "fetch_data_from_api" e "process_api_data" otimizando ainda mais e deixando mais legivel que o arquivo anterior, padronizando comentarios e retirando                 comentários redundantes.
 
-
+🩸Arquivo (ConsumindoAPIGithub): Template padrão de consumo de api método GET com parâmetro passado e com early return apenas com tratamento do 200.
 
 # Referências Bibliográficas
 
