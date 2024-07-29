@@ -23,6 +23,8 @@
 
 🩸Arquivo (ConsumindoAPIGithub): Template padrão de consumo de api método GET com parâmetro passado e com early return apenas com tratamento do 200.
 
+🩸Arquivo (KpisDaConta): Template padrão de consumo de api método GET com parâmetro com early return fazendo análise de kpis e as printando.
+
 # Referências Bibliográficas
 
 🗺 https://medium.com/@danilossdev/melhore-a-legibilidade-e-a-manutenibilidade-do-seu-c%C3%B3digo-com-a-pr%C3%A1tica-do-early-return-ead87e298d17#:~:text=A%20ideia%20do%20%E2%80%9Cearly%20return,antecipadamente%20a%20execu%C3%A7%C3%A3o%20do%20programa.&text=Se%20pensarmos%20no%20caminho%20feliz,mas%20avaliando%20os%20caminhos%20alternativos.
