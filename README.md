@@ -21,9 +21,17 @@
 
 🩸Arquivo (TemplatePadraoGET3.1_revisado):Template padrão de consumo de api método GET com parÂmetro passado e com early return nas duas funções usadas                     "fetch_data_from_api" e "process_api_data" otimizando ainda mais e deixando mais legivel que o arquivo anterior, padronizando comentarios e retirando                 comentários redundantes.
 
+
+🩸![image](https://github.com/user-attachments/assets/23cb6901-7e95-4373-bbbf-707031adc7ce)
+
+
+
 🩸Arquivo (ConsumindoAPIGithub): Template padrão de consumo de api método GET com parâmetro passado e com early return apenas com tratamento do 200.
 
 🩸Arquivo (KpisDaConta): Template padrão de consumo de api método GET com parâmetro com early return fazendo análise de kpis e as printando.
+
+🩸Arquivo (KpisSeguidoresValue): Template padrão de consumo de api método GET com parâmetro com early return fazendo análise de kpis e fazendo a busca de quem que eu sigo que tem mais repositórios públicos.
+    (pandas).
 
 # Referências Bibliográficas
 
